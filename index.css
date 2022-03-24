@@ -78,30 +78,6 @@ input {
   background: rgb(249, 249, 252);
 }
 
-.fa-trash-alt,
-.fa-edit {
-  cursor: pointer;
-  transition: color 0.20s linear;
-  font-size: 2rem;
-}
-
-.addItems .fa-edit {
-  color: rgba(39, 173, 21, 0.644);
-}
-
-/* when we click edit button from list then the changes in input field update button */
-.fa-edit {
-  margin-left: -3.5rem;
-}
-
-.eachItem:hover .fa-trash-alt {
-  color: rgba(255, 0, 21, 0.692);
-}
-
-.eachItem:hover .fa-edit {
-  color: rgb(100, 214, 47);
-}
-
 .eachItem:hover h3 {
   color: rgba(139, 39, 197, 0.747);
 }
